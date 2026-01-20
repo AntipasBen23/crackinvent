@@ -55,7 +55,7 @@ class AuthService {
     }
   }
 
-  // Get current user info
+  // Get current user 
   async getCurrentUser(token: string): Promise<User> {
     const response = await fetch(`${API_BASE}/api/auth/me`, {
       headers: this.getHeaders(token),
