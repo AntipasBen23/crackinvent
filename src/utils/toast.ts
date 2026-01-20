@@ -18,7 +18,7 @@ export const showSuccessToast = (message: string) => {
   });
 };
 
-// Error toast with X icon
+// Error toast with X icon with reas
 export const showErrorToast = (message: string) => {
   return toast.error(message, {
     duration: 5000,
